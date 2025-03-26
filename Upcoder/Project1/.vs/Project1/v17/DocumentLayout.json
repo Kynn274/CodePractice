@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F29B9DA7-320A-4AF2-BF64-63195F37AC1B}|Project1\\Project1.vcxproj|D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\BT2_HINHHOC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F29B9DA7-320A-4AF2-BF64-63195F37AC1B}|Project1\\Project1.vcxproj|solutionrelative:Project1\\BT2_HINHHOC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F29B9DA7-320A-4AF2-BF64-63195F37AC1B}|Project1\\Project1.vcxproj|D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F29B9DA7-320A-4AF2-BF64-63195F37AC1B}|Project1\\Project1.vcxproj|solutionrelative:Project1\\T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F29B9DA7-320A-4AF2-BF64-63195F37AC1B}|Project1\\Project1.vcxproj|D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\Mo_phong_lai_Ford_Bellman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F29B9DA7-320A-4AF2-BF64-63195F37AC1B}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Mo_phong_lai_Ford_Bellman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BT2_HINHHOC.cpp",
+              "DocumentMoniker": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\BT2_HINHHOC.cpp",
+              "RelativeDocumentMoniker": "Project1\\BT2_HINHHOC.cpp",
+              "ToolTip": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\BT2_HINHHOC.cpp",
+              "RelativeToolTip": "Project1\\BT2_HINHHOC.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T07:20:01.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp",
+              "DocumentMoniker": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp",
+              "RelativeDocumentMoniker": "Project1\\T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp",
+              "ToolTip": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp",
+              "RelativeToolTip": "Project1\\T\u00ECm \u0111\u01B0\u1EDDng \u0111i ng\u1EAFn nh\u1EA5t tr\u00EAn \u0111\u1ED3 th\u1ECB c\u00F3 r\u00E0ng bu\u1ED9c th\u1EDDi gian.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-04T17:05:20.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mo_phong_lai_Ford_Bellman.cpp",
+              "DocumentMoniker": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\Mo_phong_lai_Ford_Bellman.cpp",
+              "RelativeDocumentMoniker": "Project1\\Mo_phong_lai_Ford_Bellman.cpp",
+              "ToolTip": "D:\\HocTap\\LuyenTap\\Logic_code\\BaiTap\\Upcoder\\Project1\\Project1\\Mo_phong_lai_Ford_Bellman.cpp",
+              "RelativeToolTip": "Project1\\Mo_phong_lai_Ford_Bellman.cpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-04T15:57:09.116Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

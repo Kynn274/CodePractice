@@ -1,48 +1,53 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-long long n, k, tmp;
-long long sum[1000006];
-
-bool check(long long mid){
-    long long num = k;
-    long long begin(1);
-
-    if(sum[1] >= mid) num--;
-
-    for(long long i = 2; i <= n; i++){
-        if(sum[i] - sum[begin]){
-            num--;
-            begin = i;
-        }
+struct Node {
+    int key;
+    Node* left;
+    Node* right;
+    Node(int item) {
+        key = item;
+        left = right = NULL;
     }
+};
 
-    return num <= 0;
+// function to search a key in a BST
+Node* search(Node* root, int key) {
+  
+    // Base Cases: root is null or key 
+    // is present at root
+    if (root == NULL || root->key == key)
+        return root;
+
+    // Key is greater than root's key
+    if (root->key < key)
+        return search(root->right, key);
+
+    // Key is smaller than root's key
+    return search(root->left, key);
 }
 
-long long maxDividedValue(long long l, long long r){
-    long long maxValue(0);
-    while(l <= r){
-        long long mid = (l + r) / 2;
-        if(check(mid)){
-            l = mid + 1;
-            maxValue = max(maxValue, mid);
-        }else
-            r = mid - 1;
-    }
-    return maxValue;
-}
+// Driver Code
+int main() {
+  
+    // Creating a hard coded tree for keeping 
+    // the length of the code small. We need 
+    // to make sure that BST properties are 
+    // maintained if we try some other cases.
+    Node* root = new Node(50);
+    root->left = new Node(30);
+    root->right = new Node(70);
+    root->left->left = new Node(20);
+    root->left->right = new Node(40);
+    root->right->left = new Node(60);
+    root->right->right = new Node(80);
+  
+    (search(root, 19) != NULL)? cout << "Found\n": 
+                                cout << "Not Found\n";
 
-int main(){
-    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    cin >> n >> k;
-    
-    for(long long i = 1; i <= n; i++){
-        cin >> tmp;
-        sum[i] = sum[i - 1] + tmp;
-    }
-    
-    long long maxDividedNumber = maxDividedValue(0, sum[n]);
-    cout << maxDividedNumber;
+  
+    (search(root, 80) != NULL)? cout << "Found\n": 
+                                cout << "Not Found\n";
+
     return 0;
 }
