@@ -1,0 +1,64 @@
+{
+  "table": "Monsters",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "INT",
+      "identity": {
+        "seed": 1,
+        "increment": 1
+      },
+      "not_null": true,
+      "primary_key": true
+    },
+    {
+      "name": "MonsterName",
+      "type": "NVARCHAR(255)",
+      "not_null": true
+    },
+    {
+      "name": "MonsterDescription",
+      "type": "TEXT"
+    },
+    {
+      "name": "MonsterSpeed",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "MonsterAttackSpeed",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "MonsterAttackRange",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "MonsterLevel",
+      "type": "INT",
+      "not_null": true,
+      "default": 1
+    },
+    {
+      "name": "MonsterHp",
+      "type": "INT",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "MonsterAttack",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "MonsterImage",
+      "type": "NVARCHAR(1000)"
+    }
+  ]
+}

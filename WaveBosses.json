@@ -1,0 +1,29 @@
+{
+  "table": "WaveBosses",
+  "columns": [
+    {
+      "name": "WaveId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Waves",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "BossId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Bosses",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "BossNumber",
+      "type": "INT",
+      "not_null": true,
+      "default": 0
+    }
+  ]
+}

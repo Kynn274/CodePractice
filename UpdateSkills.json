@@ -1,0 +1,53 @@
+{
+  "table": "UpdateSkills",
+  "columns": [
+    {
+      "name": "SkillId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Skills",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "PlayerId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Players",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "UpdateLevel",
+      "type": "INT",
+      "not_null": true,
+      "default": 1
+    },
+    {
+      "name": "UpdateDamage",
+      "type": "DECIMAL(10,2)"
+    },
+    {
+      "name": "UpdateSpeed",
+      "type": "DECIMAL(10,2)"
+    },
+    {
+      "name": "UpdateAOE",
+      "type": "DECIMAL(10,2)"
+    },
+    {
+      "name": "UpdateCooldown",
+      "type": "DECIMAL(10,2)"
+    },
+    {
+      "name": "UpdateStun",
+      "type": "DECIMAL(10,2)"
+    },
+    {
+      "name": "UpdatePrice",
+      "type": "INT"
+    }
+  ]
+}

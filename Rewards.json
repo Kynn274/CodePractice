@@ -1,0 +1,24 @@
+{
+  "table": "Rewards",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "INT",
+      "identity": {
+        "seed": 1,
+        "increment": 1
+      },
+      "not_null": true,
+      "primary_key": true
+    },
+    {
+      "name": "RewardName",
+      "type": "NVARCHAR(255)",
+      "not_null": true
+    },
+    {
+      "name": "RewardImage",
+      "type": "NVARCHAR(1000)"
+    }
+  ]
+}

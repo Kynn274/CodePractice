@@ -1,0 +1,24 @@
+{
+  "table": "Waves",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "INT",
+      "identity": {
+        "seed": 1,
+        "increment": 1
+      },
+      "not_null": true,
+      "primary_key": true
+    },
+    {
+      "name": "StageId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Stages",
+        "column": "Id"
+      }
+    }
+  ]
+}

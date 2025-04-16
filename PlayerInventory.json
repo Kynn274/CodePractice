@@ -1,0 +1,33 @@
+{
+  "table": "PlayerInventory",
+  "columns": [
+    {
+      "name": "PlayerId",
+      "type": "INT",
+      "identity": {
+        "seed": 1,
+        "increment": 1
+      },
+      "not_null": true,
+      "foreign_key": {
+        "table": "Players",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "ItemId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Items",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "Quantity",
+      "type": "INT",
+      "not_null": true,
+      "default": 0
+    }
+  ]
+}

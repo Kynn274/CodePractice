@@ -1,0 +1,17 @@
+{
+  "table": "Buffs",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "INT",
+      "not_null": true,
+      "primary_key": true,
+      "auto_increment": true
+    },
+    {
+      "name": "BuffName",
+      "type": "NVARCHAR(255)",
+      "not_null": true
+    }
+  ]
+}

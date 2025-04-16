@@ -1,0 +1,39 @@
+{
+  "table": "SpecificSkills",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "NVARCHAR(255)",
+      "not_null": true,
+      "primary_key": true
+    },
+    {
+      "name": "SpecificSkillName",
+      "type": "NVARCHAR(255)",
+      "not_null": true
+    },
+    {
+      "name": "SpecificSkillDescription",
+      "type": "TEXT"
+    },
+    {
+      "name": "SpecificSkillEffects",
+      "type": "NVARCHAR(255)"
+    },
+    {
+      "name": "SpecificSkillLevelUnlock",
+      "type": "INT",
+      "not_null": true,
+      "default": 1
+    },
+    {
+      "name": "SkillId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Skills",
+        "column": "Id"
+      }
+    }
+  ]
+}

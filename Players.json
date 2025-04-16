@@ -1,0 +1,56 @@
+{
+  "table": "Players",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "INT",
+      "identity": {
+        "seed": 1,
+        "increment": 1
+      },
+      "not_null": true,
+      "primary_key": true
+    },
+    {
+      "name": "AccountId",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "Accounts",
+        "column": "Id"
+      }
+    },
+    {
+      "name": "PlayerLevel",
+      "type": "INT",
+      "not_null": true,
+      "default": 1
+    },
+    {
+      "name": "PlayerExp",
+      "type": "INT",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "PlayerGold",
+      "type": "INT",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "PlayerName",
+      "type": "NVARCHAR(255)",
+      "not_null": true
+    },
+    {
+      "name": "PlayerAvatar",
+      "type": "INT",
+      "not_null": true,
+      "foreign_key": {
+        "table": "GameAvatars",
+        "column": "Id"
+      }
+    }
+  ]
+}

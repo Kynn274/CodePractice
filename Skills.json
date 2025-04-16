@@ -1,0 +1,61 @@
+{
+  "table": "Skills",
+  "columns": [
+    {
+      "name": "Id",
+      "type": "INT",
+      "identity": {
+        "seed": 1,
+        "increment": 1
+      },
+      "not_null": true,
+      "primary_key": true
+    },
+    {
+      "name": "SkillName",
+      "type": "NVARCHAR(255)",
+      "not_null": true
+    },
+    {
+      "name": "SkillImage",
+      "type": "NVARCHAR(1000)"
+    },
+    {
+      "name": "SkillBaseDamage",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "SkillBaseSpeed",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "SkillAOE",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "SkillCooldown",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0,
+      "comment": "second"
+    },
+    {
+      "name": "SkillStun",
+      "type": "DECIMAL(10,2)",
+      "not_null": true,
+      "default": 0
+    },
+    {
+      "name": "SkillBasePrice",
+      "type": "INT",
+      "not_null": true,
+      "default": 0
+    }
+  ]
+}
